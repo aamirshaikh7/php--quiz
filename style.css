@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body
+{
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+	line-height: 1.6em;
+}
+
+li
+{
+	list-style: none;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+header
+{
+	border-bottom: 3px solid #f4f4f4;
+}
+
+.container
+{
+	width: 60%;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+main
+{
+	padding-bottom: 20px;
+}
+
+footer
+{
+	border-top: 3px solid #f4f4f4;
+	text-align: center;
+	padding-top: 5px;
+}
+
+.start
+{
+	display: inline-block;
+	color: #666;
+	background: #f4f4f4;
+	border: 1px dotted #eee;
+	padding: 6px 13px;
+}
+
+.current
+{
+	padding: 10px;
+	background: #f4f4f4;
+	border: 1px dotted #eee;
+	margin: 20px 0 10px 0;
+}
+
+/* Admin panel */
+
+.container label
+{
+	display: inline-block;
+	width: 180px;
+}
+
+.container input[type='text']
+{
+	outline: none;
+	width: 97%;
+	padding: 4px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+
+.container input[type='number']
+{
+	outline: none;
+	width: 60px;
+	padding: 4px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+
+@media only screen and (max-width: 960px)
+{
+	/* under 960px */
+
+	.container
+	{
+		width: 80%;
+	}
+}
